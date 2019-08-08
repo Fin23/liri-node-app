@@ -2,6 +2,7 @@
 require("dotenv").config();
 var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
+var axios = require("axios");
 
 //Make it so liri.js can take in one of the following commands:
 // concert-this
